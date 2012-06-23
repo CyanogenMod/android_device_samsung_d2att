@@ -1,2 +1,1 @@
 # Add device specific blobs here
-bin/time_services
