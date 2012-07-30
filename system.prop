@@ -93,4 +93,6 @@ com.qc.hdmi_out=true
 ro.hdmi.enable=true
 debug.sf.hw=1
 debug.composition.type=dyn
+debug.mdpcomp.maxlayer=3
+debug.mdpcomp.logs=0
 ro.cwm.enable_key_repeat=true
