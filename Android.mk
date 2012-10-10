@@ -15,16 +15,9 @@
 # limitations under the License.
 #
 
-# device
-$(call inherit-product, device/samsung/d2att/device.mk)
+LOCAL_PATH := $(call my-dir)
 
-# telephony
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# product
-PRODUCT_NAME := liquid_d2att
-PRODUCT_DEVICE := d2att
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := Samsung
-PRODUCT_MODEL := SGH-I747
+ifeq ($(TARGET_BOARD_PLATFORM),d2att)
+    include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif
 

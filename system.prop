@@ -1,10 +1,18 @@
+windowsmgr.max_events_per_sec=275
+#
 # system.prop for SGH-I747
 #
-
-# cannot take spaces
+## cannot take spaces
 rild.libargs=-d /dev/smd0
 
-# Fields for custom RIL
-# MAX PROP NAME is 31 chars --|
+# Fields For Custom RIL
 ro.telephony.ril_class=SamsungQualcommD2RIL
 telephony.lteOnGsmDevice=1
+
+# Fields For VM Heapsize
+dalvik.vm.heapsize=256m
+dalvik.vm.heapstartsize=32m
+dalvik.vm.heapgrowthlimit=64m
+dalvik.vm.heaputilization=0.25
+dalvik.vm.heapidealfree=8388608
+dalvik.vm.heapconcurrentstart=2097152
