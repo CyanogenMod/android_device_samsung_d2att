@@ -16,3 +16,6 @@ dalvik.vm.heapgrowthlimit=64m
 dalvik.vm.heaputilization=0.25
 dalvik.vm.heapidealfree=8388608
 dalvik.vm.heapconcurrentstart=2097152
+
+#Fix for 'Tron' Visual artifacts
+debug.composition.type=gpu
