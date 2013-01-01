@@ -10,9 +10,9 @@ ro.telephony.ril_class=SamsungQualcommD2RIL
 telephony.lteOnGsmDevice=1
 
 # Fields For VM Heapsize
-dalvik.vm.heapsize=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=512k
 dalvik.vm.heapstartsize=32m
-dalvik.vm.heapgrowthlimit=64m
-dalvik.vm.heaputilization=0.25
-dalvik.vm.heapidealfree=8388608
-dalvik.vm.heapconcurrentstart=2097152
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heaputilization=0.75
