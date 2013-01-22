@@ -41,4 +41,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_VERSION_TAGS=release-keys \
     PRIVATE_BUILD_DESC="d2uc-user 4.0.4 IMM76D I747UCALEM release-keys" \
     BUILD_FINGERPRINT="samsung/d2uc/d2att:4.0.4/IMM76D/I747UCALEM:user/release-keys"
-
