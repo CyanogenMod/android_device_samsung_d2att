@@ -9,14 +9,6 @@ rild.libargs=-d /dev/smd0
 ro.telephony.ril_class=SamsungQualcommD2RIL
 telephony.lteOnGsmDevice=1
 
-# hardware info
-ro.device.chipset=Qualcomm Snapdragon S4 MSM8960
-ro.device.cpu=1.5 GHz dual-core Krait
-ro.device.gpu=Qualcomm Adreno 225
-ro.device.rear_cam=8 MP
-ro.device.front_cam=1.9 MP
-ro.device.screen_res=720x1280
-
 # Fields For VM Heapsize
 dalvik.vm.heapsize=512m
 dalvik.vm.heapmaxfree=8m
