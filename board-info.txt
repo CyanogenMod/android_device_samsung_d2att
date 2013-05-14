@@ -1,0 +1,2 @@
+require version-bootloader=I747UCDLK3
+
