@@ -1,2 +1,2 @@
-require version-bootloader=I747UCDLK3|I747MVLDLK4
+require version-bootloader=I747UCDLK3|I747MVLDLK4|I747MUMBLK3|I747MUMBLL1
 
